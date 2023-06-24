@@ -1,0 +1,14 @@
+.divvolagers:hover{
+cursor: pointer;
+}
+.navbarBackground{
+    background-color: #0d6efd !important;
+    border-bottom: solid;
+}
+
+.darkcolor{
+    background-color: #062379 !important;
+    color: white;
+    border-radius: 20px;
+    border-bottom: solid;
+}
