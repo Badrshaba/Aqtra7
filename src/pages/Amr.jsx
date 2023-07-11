@@ -11,14 +11,17 @@ import Row from "react-bootstrap/Row";
 import img from "../img/amrelhady.jpg";
 import img1 from "../img/KFC.png"
 import img2 from "../img/MC.jpg"
+import { Data } from "./Data";
 
 const Amr = () => {
+  const [datielsData]=useState(Data)
     const [male,setmale] = useState(true)
     const shoose = ()=>setmale(true)
     const notShoose = ()=>setmale(false)
   return (
     <div>
       <FirstPage male={male} shoose={shoose} notShoose={notShoose}/>
+      {}
       <div className=" d-flex flex-column justify-content-center">
         <Container>
           <Row className=" justify-content-center">

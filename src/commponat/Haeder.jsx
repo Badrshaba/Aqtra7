@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
+import Button from "react-bootstrap/Button";
 import "./commponant.css";
 import { Link, useNavigate } from "react-router-dom";
 const Haeder = () => {
@@ -13,12 +14,13 @@ const move = useNavigate()
      bg="dark" variant="dark"  expand="lg"
       >
         <Container>
-          <Navbar.Brand as={Link} to={"/"}>
+          <Navbar.Brand as={Link} to={"/"} onClick={()=>setbackground(0)}>
             <h2>AQTRA7</h2>
           </Navbar.Brand>
+          <Button as={Link} to={"/aboutus"}>About As</Button>
         </Container>
       </Navbar>
-      <div
+      {/* <div
        className=" border-bottom"
       >
         <div className=" d-flex justify-content-evenly m-0 p-0 m-auto bg-primary">
@@ -45,7 +47,7 @@ const move = useNavigate()
             <h4>Restaurants</h4>
           </div>
         </div>
-      </div>
+      </div> */}
       
  
       </div> 

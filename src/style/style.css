@@ -1,0 +1,41 @@
+.link{
+    text-decoration: none;
+    color: white
+}
+.divVloger{
+    background-color: rgb(0, 0, 255);
+}
+.divVloger:hover {
+    background-color: rgb(2, 2, 58);
+    cursor: pointer;
+    color: white;
+}
+.divVloger:focus{
+    background-color: rgb(2, 2, 58);
+    
+}
+.titlehome{
+    border: solid;
+    width: 75%;
+    margin: auto;
+    background-color: black;
+    padding: 5px 0px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px black;
+    border: none;
+}
+.bottonhome{
+    border: solid;
+    width: 400px;
+    border-radius: 7px;
+    padding: 5px 0px;
+}
+.bottonhome:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 532px){
+    .bottonhome,.titlehome{
+        width: 85%;
+    }
+
+}

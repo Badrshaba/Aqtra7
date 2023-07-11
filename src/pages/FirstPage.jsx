@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./pages.css"
 const FirstPage = ({male,shoose,notShoose}) => {
   
 

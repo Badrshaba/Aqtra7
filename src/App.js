@@ -7,6 +7,7 @@ import Kfc from "./pages/Kfc";
 import Restaurants from "./pages/Restaurants";
 import Volages from "./pages/Volages";
 import Amr from "./pages/Amr";
+import AboutUs from "./pages/AboutUs";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/amr" element={<Amr />} />
         <Route path="/macdonald" element={<Macdonald />} />
         <Route path="/kfc" element={<Kfc />} />
+        <Route path="/aboutus" element={<AboutUs />} />
       </Routes>
     </div>
   );
